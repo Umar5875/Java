@@ -41,12 +41,12 @@ public class ComplexsM {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 // First Complex Number
-System.out.println("Enter First Number:");
+System.out.println("Enter First R and I Number:");
 double r1 = sc.nextDouble();
 double i1 = sc.nextDouble();
 Complex c1 = new Complex(r1, i1);
 // Second Complex Number
-System.out.println("Enter Number:");
+System.out.println("Enter second R and I Number:");
 double r2 = sc.nextDouble();
 double i2 = sc.nextDouble();
 Complex c2 = new Complex(r2, i2);
